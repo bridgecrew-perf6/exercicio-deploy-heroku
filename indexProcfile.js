@@ -1,7 +1,7 @@
 const express = require('express');
 
 const PORT = 3001;
-const API_MESSAGE = process.env.API_MESSAGE || 'I am ALIVE!';
+const API_MESSAGE = process.env.API_MESSAGE || 'Procfile funciona pra dedeu!';
 
 const app = express();
 
